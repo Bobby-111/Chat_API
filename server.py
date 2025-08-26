@@ -24,7 +24,7 @@ client = OpenAI(
     base_url=os.environ.get("OPENAI_API_BASE_URL")  # Default to OpenAI if not set
 )
 
-MODEL = "provider-6/kimi-k2-instruct"
+MODEL = "provider-6/gemini-2.5-flash"
 
 system_prompt = '''You are SignCrypt AI – a multilingual, intelligent communication assistant designed to help users communicate through sign language (ASL), Morse code, text, and speech. Your core mission is to bridge communication gaps for people with hearing or speech impairments while also supporting encrypted and secure messaging.
 
